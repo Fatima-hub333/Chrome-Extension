@@ -1,6 +1,5 @@
-// Log out "Button clicked!" when the user clicks the "SAVE INPUT" button
+let inputBtn = document.getElementById("input-btn")
 
-function saveLead() {
-  console.log("Button Clicked");
-}
-saveLead();
+inputBtn.addEventListener("click", function () {
+  console.log("Button clicked from addEeventListener")
+})
