@@ -1,22 +1,28 @@
-// let myLeads = ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com"]
-// const inputEl = document.getElementById("input-el")
-// const inputBtn = document.getElementById("input-btn")
-// const ulEl = document.getElementById("ul-el")
+let myLeads = []
+const inputEl = document.getElementById("input-el")
+const inputBtn = document.getElementById("input-btn")
+const ulEl = document.getElementById("ul-el")
 
-// inputBtn.addEventListener("click", function() {
-//     myLeads.push(inputEl.value)
-//     console.log(myLeads)
-// })
+inputBtn.addEventListener("click", function() {
+  myLeads.push(inputEl.value);
+  inputEl.value = "";
+    // 2. Call the renderLeads() function
+    renderLeads()
+})
 
-
-// for (let i = 0; i < myLeads.length; i++) {
-//     ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
-// }
-
-// Lear innerHTML
-//  Use .innerHTML to render a Buy! button inside the div container
-const container = document.getElementById("container");
-container.innerHTML = "<button>Buy!</button>"
-
-
+// 1. Wrap the code below in a renderLeads() function
+function renderLeads() {
+    let listItems = ""
+    for (let i = 0; i < myLeads.length; i++) {
+      // listItems += "<li><a target='_blank' href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>";
+      listItems += `
+          <li>
+            <a target='_blank' href='${myLeads[i]}'>
+                ${myLeads[i]}
+            </a>
+          </li>
+        `
+    }
+  ulEl.innerHTML = listItems;
+}
 

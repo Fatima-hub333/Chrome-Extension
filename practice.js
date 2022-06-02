@@ -27,4 +27,25 @@ shippingTime = "7-14 days"
 const fullPrice = basePrice - discount + shippingCost
 
 // Finally, notifying the customer
-console.log("Total cost: " + fullPrice + ". It will arrive in " + shippingTime)
+console.log("Total cost: " + fullPrice + ". It will arrive in " + shippingTime);
+
+// Lear innerHTML
+//  Use .innerHTML to render a Buy! button inside the div container
+const container = document.getElementById("container");
+container.innerHTML = "<button onclick='buy()'>Buy!</button>";
+
+// When clicked, render a paragraph under the button (in the container)
+// that says "Thank you for buying!"
+function buy() {
+  container.innerHTML += "<p>Thank you for buying</p>";
+}
+
+// template strings/literals practice
+const recipient = "James";
+const sender = "Fatima";
+// Refactor the email string to use template strings
+//const email = "Hey " + recipient + "! How is it going? cheers Fatima ";
+const email = `Hey ${recipient}! 
+How is it going?
+Cheers ${sender}`
+console.log(email);
