@@ -1,47 +1,38 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
 }
 
 input {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  border: 1px solid #5f9341;
-  margin-bottom: 5px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
 }
 
 button {
-  background-color: #5f9341;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  font-weight: bold;
+    background: #5f9341;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
 }
 
-#box {
-  cursor: pointer;
-  background: lightseagreen;
-  padding: 40px;
-  width: 200px;
-  text-align: center;
-  margin: 20px auto;
-  color: white;
-  font-weight: bold;
+
+/* STYLE THE LIST ACCORDING TO THE DESIGN */
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
 }
 
-#closeBox {
-  cursor: pointer;
-  background: rgb(108, 111, 111);
-  padding: 40px;
-  width: 200px;
-  text-align: center;
-  margin: 20px auto;
-  color: white;
-  font-weight: bold;
+li {
+    margin-top: 5px;
+}
+
+li a {
+    color: #5f9341;
 }
