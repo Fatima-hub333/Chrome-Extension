@@ -7,13 +7,10 @@
 
 Chrome Extension enhance user browser ecperience in chrome. You can save URL's of someone linkedin profile, Github profile, some inmportant document link etc through this Chrome extension. You just have to upload this in your Chrome extensions.
 
-![screenshot](images/Lead.png)
+![screenshot](images/Lead-Tracker Chrome-Extension.png)
 
 ## [LiveDemo] 
 (https://fatima-hub333.github.io/Module-1_Capstone-1/)
-
-## [VideoPresentationLink]
-(https://www.loom.com/share/505db0508b074b4e8a299783d8eb0719)
 
 ## Built With
 
@@ -31,10 +28,10 @@ Basic knowledge of HTML, CSS.
 ### Setup
 If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
 
-[Download the ZIP from this location](https://github.com/Fatima-hub333/Portfolio_Mobile_Version_Skeleton/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+[Download the ZIP from this location](https://github.com/Fatima-hub333/Chrome-Extension/archive/refs/heads/dev.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
 
 ```bash
-git clone https://github.com/Fatima-hub333/Portfolio_Mobile_Version_Skeleton.git
+git clone https://github.com/Fatima-hub333/Chrome-Extension.git
 ```
 
 - Once the files are on your machine, open the _Portfolio_ folder in [Visual Studio Code](https://code.visualstudio.com/).
