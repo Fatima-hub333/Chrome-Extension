@@ -10,7 +10,7 @@ Chrome Extension enhance user browser ecperience in chrome. You can save URL's o
 ![screenshot](images/Lead-Tracker Chrome-Extension.png)
 
 ## [LiveDemo] 
-(https://fatima-hub333.github.io/Module-1_Capstone-1/)
+(https://fatima-hub333.github.io/Chrome-Extension/)
 
 ## Built With
 
