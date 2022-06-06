@@ -7,7 +7,7 @@
 
 Chrome Extension enhance user browser ecperience in chrome. Through this Chrome extensionYou can save URL's of someone linkedin profile, Github profile, some inmportant document link etc. You just have to upload this in your Chrome extensions.
 
-![screenshot](images/Lead-Tracker Chrome-Extension.png)
+![screenshot](images/lead-tracker.png)
 
 ## [LiveDemo] 
 (https://fatima-hub333.github.io/Chrome-Extension/)
