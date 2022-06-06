@@ -5,7 +5,7 @@
 
 > Lead Tracker Chrome Extension
 
-Chrome Extension enhance user browser ecperience in chrome. You can save URL's of someone linkedin profile, Github profile, some inmportant document link etc through this Chrome extension. You just have to upload this in your Chrome extensions.
+Chrome Extension enhance user browser ecperience in chrome. Through this Chrome extensionYou can save URL's of someone linkedin profile, Github profile, some inmportant document link etc. You just have to upload this in your Chrome extensions.
 
 ![screenshot](images/Lead-Tracker Chrome-Extension.png)
 
