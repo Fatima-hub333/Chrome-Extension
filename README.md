@@ -9,8 +9,7 @@ Chrome Extension enhance user browser ecperience in chrome. Through this Chrome 
 
 ![screenshot](images/lead-tracker.png)
 
-## [LiveDemo] 
-(https://fatima-hub333.github.io/Chrome-Extension/)
+## [LiveDemo](https://fatima-hub333.github.io/Chrome-Extension/)
 
 ## Built With
 
